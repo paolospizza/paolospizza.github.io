@@ -3,7 +3,8 @@
   "scripts": {
     "prod": "NODE_ENV=production npx webpack",
     "dev": "NODE_ENV=development npx webpack",
-    "watch": "NODE_ENV=development npx webpack --watch"
+    "watch": "NODE_ENV=development npx webpack --watch",
+    "deploy": "npm run prod && git add -A && git commit -m \"deploy to prod\" && git push"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.3.0",
