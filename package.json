@@ -7,7 +7,6 @@
     "deploy": "npm run prod && git add -A && git commit -m \"deploy to prod\" && git push"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^2.3.0",
     "autoprefixer": "^9.8.6",
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^6.1.0",
