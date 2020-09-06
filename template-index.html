@@ -30,17 +30,17 @@
 
     <div class="py-10" style="background: #000">
         <div class="container mx-0 md:mx-2 px-0 md:px-2">
-            <img src="images/on-black.png" alt="Paolo's pizza logo" class="w-full max-w-xs">
+            <img src="images/on-black.png" alt="Paolo's pizza logo" class="w-full max-w-xs mx-auto sm:mx-0">
         </div>
     </div>
 
-    <section class="container mx-auto px-6 p-10 max-w-3xl">
+    <section class="container mx-auto px-6 py-2 max-w-3xl">
 
 
         <div class="flex items-center flex-wrap mb-20">
             <div class="w-full sm:w-1/2 mx-auto sm:mx-0">
                 <h4 class="text-center md:text-left text-3xl text-gray-800 font-bold mb-3">Made with love</h4>
-                <p class="text-center md:text-left text-gray-600 mb-8">TEXT GOES HERE INNIT</p>
+                <p class="text-center md:text-left text-gray-700 mb-8">TEXT GOES HERE INNIT</p>
             </div>
             <div class="w-full sm:w-1/2 mx-auto sm:mx-0">
                 <img src="images/pizza-oven.png" alt="a pizza oven" class="max-w-xs mx-auto"/>
@@ -53,10 +53,29 @@
             </div>
             <div class="w-full sm:w-1/2 mx-auto sm:mx-0">
                 <h4 class="text-center md:text-left text-3xl text-gray-800 font-bold mb-3">Delivered by bicycle</h4>
-                <p class="text-center md:text-left text-gray-600 mb-8">ECO POWERED</p>
+                <p class="text-center md:text-left text-gray-700 mb-8">ECO POWERED</p>
             </div>
         </div>
 
+    </section>
+    <h1 class="text-4xl text-center">Menu</h1>
+    <section class="container mx-auto w-4/5 border-2 rounded-r p-2">
+
+        <div class="flex flex-col">
+            <div class="flex">
+                <span class="flex-none text-3xl">Margherita</span>
+                <span class="flex-grow border-b-2"></span>
+                <span class="flex-none text-3xl">£9.50</span>
+            </div>
+            <p class="text-gray-700 italic">classic tomato and shit</p>
+        </div>
+        <div>
+            <h3 class="text-2xl">
+                <span>Napoletana</span>
+                <span class="float-right">£8.50</span>
+            </h3>
+            <p class="text-gray-700 italic">tomato, anchovies, black olives, no cheese</p>
+        </div>
     </section>
 
 </div>
@@ -78,20 +97,20 @@
                 <ul class="mb-4">
                     <li class="mt-2">
                         <a href="https://www.facebook.com/{{ site.facebook_username| cgi_escape | escape }}"
-                           class="hover:underline text-gray-600 hover:text-orange-500">
+                           class="hover:underline text-gray-700 hover:text-orange-500">
                             <span class="username">paolospizzamarple</span>
                         </a>
                     </li>
                     <li class="mt-2">
                         <a href="https://instagram.com/{{ site.instagram_username| cgi_escape | escape }}"
-                           class="hover:underline text-gray-600 hover:text-orange-500">
+                           class="hover:underline text-gray-700 hover:text-orange-500">
                             <span class="username">paolospizzamarple</span>
                         </a>
                     </li>
 
                     <li class="mt-2">
                         <a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}"
-                           class="hover:underline text-gray-600 hover:text-orange-500">
+                           class="hover:underline text-gray-700 hover:text-orange-500">
                             <span class="username">paolospizzamarple</span>
                         </a>
                     </li>
