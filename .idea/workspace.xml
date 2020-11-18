@@ -5,8 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.05a3c70d37da8bf5bd62.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.25b4b3e810fbac63cb47.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.3a5aa58d0b25d4d1b078.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.d2bc79f3f52d3112bd02.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/template-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/template-index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +74,7 @@
       <workItem from="1601022267012" duration="392000" />
       <workItem from="1601023588508" duration="85000" />
       <workItem from="1601067193203" duration="4000" />
-      <workItem from="1605727151946" duration="6473000" />
+      <workItem from="1605727151946" duration="9266000" />
     </task>
     <servers />
   </component>
@@ -114,5 +114,9 @@
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
     <state x="519" y="187" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.25.1792.1095@0.25.1792.1095" timestamp="1605729193436" />
+    <state x="597" y="327" width="597" height="490" key="find.popup" timestamp="1605737369319">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state x="597" y="327" width="597" height="490" key="find.popup/0.25.1792.1095@0.25.1792.1095" timestamp="1605737369319" />
   </component>
 </project>
