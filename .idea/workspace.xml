@@ -4,8 +4,8 @@
     <list default="true" id="ee180f42-5e19-41ab-aa28-4194ac785350" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.25b4b3e810fbac63cb47.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.b195176f5e4e4009f79b.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.adcbe48eaf6c8ba2ae91.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/template-index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +72,7 @@
       <workItem from="1601022267012" duration="392000" />
       <workItem from="1601023588508" duration="85000" />
       <workItem from="1601067193203" duration="4000" />
-      <workItem from="1605727151946" duration="849000" />
+      <workItem from="1605727151946" duration="2292000" />
     </task>
     <servers />
   </component>
@@ -84,9 +84,33 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="360" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1599328135213" />
+    <state x="0" y="25" key="FileDocumentManager.FileCacheConflict" timestamp="1605728780963">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state x="0" y="25" key="FileDocumentManager.FileCacheConflict/0.25.1792.1095@0.25.1792.1095" timestamp="1605728780963" />
+    <state width="1771" height="301" key="GridCell.Tab.0.bottom" timestamp="1605729386528">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state width="1771" height="301" key="GridCell.Tab.0.bottom/0.25.1792.1095@0.25.1792.1095" timestamp="1605729386528" />
+    <state width="1771" height="301" key="GridCell.Tab.0.center" timestamp="1605729386527">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state width="1771" height="301" key="GridCell.Tab.0.center/0.25.1792.1095@0.25.1792.1095" timestamp="1605729386527" />
+    <state width="1771" height="301" key="GridCell.Tab.0.left" timestamp="1605729386527">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state width="1771" height="301" key="GridCell.Tab.0.left/0.25.1792.1095@0.25.1792.1095" timestamp="1605729386527" />
+    <state width="1771" height="301" key="GridCell.Tab.0.right" timestamp="1605729386528">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state width="1771" height="301" key="GridCell.Tab.0.right/0.25.1792.1095@0.25.1792.1095" timestamp="1605729386528" />
     <state width="514" height="445" key="SwitcherDM" timestamp="1600984808412">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="514" height="445" key="SwitcherDM/0.23.1792.1097@0.23.1792.1097" timestamp="1600984808412" />
+    <state x="519" y="187" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605729193436">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state x="519" y="187" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.25.1792.1095@0.25.1792.1095" timestamp="1605729193436" />
   </component>
 </project>
