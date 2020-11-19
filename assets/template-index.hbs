@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Paolo’s Pizza">
+    <meta property="og:locale" content="en_GB">
+    <meta name="description" content="{{org.descriptionOne}} {{org.descriptionTwo}} {{org.descriptionThree}}">
+    <meta property="og:description" content="{{org.descriptionOne}} {{org.descriptionTwo}} {{org.descriptionThree}}">
+    <meta property="og:image" content="{{org.web}}images/on-black.png">
+    <link rel="canonical" href="{{org.web}}">
+    <meta property="og:url" content="{{org.web}}">
+    <meta name="twitter:card" content="summary"/>
+    <script type="application/ld+json">
+        {
+            "url": "{{org.web}}",
+            "description": "{{org.descriptionOne}} {{org.descriptionTwo}} {{org.descriptionThree}}",
+            "@type": "LocalBusiness",
+            "currenciesAccepted": "GBP",
+            "name": "Paolo’s Pizza",
+            "@context": "https://schema.org",
+            "telephone": "{{org.telephone}}",
+            "email": "{{org.email}}",
+            "image": "{{org.web}}images/on-black.png",
+            "address": "Marple, UK",
+            "priceRange": "$$"
+        }</script>
+    <meta property="og:site_name" content="Paolo’s Pizza">
+    <title>Paolo's Pizza</title>
+</head>
+
+<body class="text-gray-700 bg-white">
+
+    <header class="bg-black mb-3">
+        <div class="mx-2 max-w-screen-sm md:mx-auto">
+            <img src="images/on-black.png" alt="Paolo's pizza logo" class="" style="max-height: 18rem;">
+        </div>
+    </header>
+
+    <section class="mx-2 max-w-screen-sm md:mx-auto">
+        <div class="mb-3">
+            <h4 class="text-3xl text-gray-800 font-bold mb-3">
+                {{org.descriptionOne}}
+            </h4>
+            <p class="text-gray-700 mb-2">{{org.descriptionTwo}}</p>
+            <p class="text-gray-700">{{org.descriptionThree}}</p>
+        </div>
+
+    </section>
+    <h1 class="text-4xl text-center">Menu</h1>
+    <section class="border-2 rounded-r p-2 mx-2 max-w-screen-sm md:mx-auto">
+
+        {{#each menu}}
+            {{>pizza menu=.}}
+        {{/each}}
+    </section>
+
+    <div class="mx-auto my-5 text-center">
+        <a href="tel:{{org.telephone}}" class="bg-black hover:bg-black text-white font-bold py-2 px-4 border border-black rounded mx-auto inline-flex items-center">
+            <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M97.333 506.966c-129.874-129.874-129.681-340.252 0-469.933 5.698-5.698 14.527-6.632 21.263-2.422l64.817 40.513a17.187 17.187 0 0 1 6.849 20.958l-32.408 81.021a17.188 17.188 0 0 1-17.669 10.719l-55.81-5.58c-21.051 58.261-20.612 122.471 0 179.515l55.811-5.581a17.188 17.188 0 0 1 17.669 10.719l32.408 81.022a17.188 17.188 0 0 1-6.849 20.958l-64.817 40.513a17.19 17.19 0 0 1-21.264-2.422zM247.126 95.473c11.832 20.047 11.832 45.008 0 65.055-3.95 6.693-13.108 7.959-18.718 2.581l-5.975-5.726c-3.911-3.748-4.793-9.622-2.261-14.41a32.063 32.063 0 0 0 0-29.945c-2.533-4.788-1.65-10.662 2.261-14.41l5.975-5.726c5.61-5.378 14.768-4.112 18.718 2.581zm91.787-91.187c60.14 71.604 60.092 175.882 0 247.428-4.474 5.327-12.53 5.746-17.552.933l-5.798-5.557c-4.56-4.371-4.977-11.529-.93-16.379 49.687-59.538 49.646-145.933 0-205.422-4.047-4.85-3.631-12.008.93-16.379l5.798-5.557c5.022-4.813 13.078-4.394 17.552.933zm-45.972 44.941c36.05 46.322 36.108 111.149 0 157.546-4.39 5.641-12.697 6.251-17.856 1.304l-5.818-5.579c-4.4-4.219-4.998-11.095-1.285-15.931 26.536-34.564 26.534-82.572 0-117.134-3.713-4.836-3.115-11.711 1.285-15.931l5.818-5.579c5.159-4.947 13.466-4.337 17.856 1.304z"/></svg>
+            <span>CALL {{org.telephone}} TO ORDER</span>
+        </a>
+    </div>
+
+
+
+<footer class="bg-gray-100">
+    <div class="mx-auto px-6 pt-10 pb-6">
+        <div class="flex flex-wrap content-between">
+            <div class="w-full sm:w-1/2 text-center sm:text-left">
+                <h4 class="uppercase mb-6 font-bold">Contact</h4>
+                <ul class="mb-4">
+                    <li class="mt-2">
+                        <a href="tel:{{org.telephone}}">{{org.telephone}}</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="w-full sm:w-1/2 text-center sm:text-left">
+                <h4 class="uppercase mb-6 font-bold">Social</h4>
+                <ul class="mb-4">
+                    <li class="mt-2">
+                        <a href="{{org.facebook}}"
+                           class="hover:underline text-gray-700 hover:text-orange-500">
+                            <span class="username">{{org.facebook}}</span>
+                        </a>
+                    </li>
+                    <li class="mt-2">
+                        <a href="mailto:{{org.email}}"
+                           class="hover:underline text-gray-700 hover:text-orange-500">
+                            <span class="username">{{org.email}}</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+
+</html>

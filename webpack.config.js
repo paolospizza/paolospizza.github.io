@@ -27,7 +27,8 @@ module.exports = {
                     'css-loader',
                     'postcss-loader',
                 ]
-            }
+            },
+            { test: /\.hbs$/, loader: "handlebars-loader" }
         ]
     },
     plugins: [
@@ -36,7 +37,8 @@ module.exports = {
             filename: '[name].[contenthash].css'
         }),
         new HtmlWebpackPlugin({
-            template: './template-index.html'
+            template: '!!handlebars-loader!./assets/template-index.hbs',
+            templateParameters: require('./assets/content.json')
         }),
         new CopyPlugin({
             patterns: [

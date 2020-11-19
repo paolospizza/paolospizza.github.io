@@ -1,0 +1,60 @@
+{
+  "org": {
+    "descriptionOne": "Paolo's Pizza is a new Pizza delivery service based in Marple, UK.",
+    "descriptionTwo": "We offer delicious, hand stretched Pizza, made in the authentic Neapolitan style and delivered directly to your door.",
+    "descriptionThree": "When you can't go to the Pizzeria, let the Pizzeria come to you!",
+    "telephone": "123-456-7890",
+    "email": "paolospizzamarple@gmail.com",
+    "web": "https://paolospizza.github.io/",
+    "facebook": "https://www.facebook.com/Paolos-Pizza-110432444217153"
+  },
+  "menu": [
+    {
+      "pizza": "Margherita",
+      "price": "£7.50",
+      "description": "San Marzano tomatoes, Fior di latte Mozzarella, Parmigianno reggiano, fresh basil, extra virgin olive oil"
+    },
+    {
+      "pizza": "Prosciutto e Funghi",
+      "price": "£9.00",
+      "description": "San Marzano tomatoes, Fior di latte Mozzarella, Parmigianno reggiano, prosciutto cotto (Italian cooked ham), Mushrooms, Truffle oil"
+    },
+    {
+      "pizza": "Americano",
+      "price": "£8.50",
+      "description": "San Marzano tomatoes, Fior di latte Mozzarella, Pepperoni, fresh red chilli, extra virgin olive oil"
+    },
+    {
+      "pizza": "Quattro Stagioni",
+      "price": "£9.00",
+      "description": "San Marzano tomatoes, Fior di latte Mozzarella, prosciutto cotto, artichoke, mushrooms, kalamata olives, extra virgin olive oil"
+    },
+    {
+      "pizza": "Salsiccia e Friarelli",
+      "price": "£9.50",
+      "description": "San Marzano tomatoes, Fior di latte Mozzarella, Italian fennel sausage, friarelli (wild broccoli), extra virgin olive oil"
+    },
+    {
+      "pizza": "Napoletana",
+      "price": "£8.50",
+      "description": "San Marzano tomatoes, Fior di latte Mozzarella, anchovy, capers, Kalamata olives, extra virgin olive oil"
+    },
+    {
+      "pizza": "Quattro Formaggi",
+      "price": "£9.50",
+      "description": "San Marzano tomatoes, Fior di latte Mozzarella, Parmigianno reggiano, Gruyere, Gorgonzola"
+    },
+    {
+      "pizza": "Vegano (v)",
+      "price": "£8.00",
+      "note": "* Add vegan cheese or Fior di latte Mozzarella (non vegan) for £1.00 extra",
+      "description": "San Marzano tomatoes, oregano, roasted peppers, artichoke, kalamata olives, extra virgin olive oil"
+    },
+    {
+      "pizza": "Paolo's pudding pizza (v)",
+      "price": "£9.00",
+      "note": "(for customers with a sweet tooth)",
+      "description": "Marshmallows, Nutella, Icing Sugar"
+    }
+  ]
+}
