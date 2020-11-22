@@ -1,10 +1,11 @@
 module.exports = {
-  purge: [
-    './assets/*.hbs'
-  ],
+  purge: ['./_site/**/*.html'],
+  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
   },
-  variants: {},
+  variants: {
+    extend: {},
+  },
   plugins: [],
 }

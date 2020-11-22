@@ -1,0 +1,15 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "Paolo's Pizza"
+telephone: "123-456-7890"
+telephoneForWhatsApp: "1234567890" # whatsapp accepts phone details only numbers no other characters
+email: "paolospizzamarple@gmail.com"
+web: "https://paolospizza.github.io/"
+facebook: "https://www.facebook.com/Paolos-Pizza-110432444217153"
+description: >
+  Paolo's Pizza is a new Pizza delivery service based in Marple, UK.
+  We offer delicious, hand stretched Pizza, made in the authentic Neapolitan style and delivered directly to your door.
+  When you can't go to the Pizzeria, let the Pizzeria come to you!
+
+plugins:
+  - jekyll-postcss
