@@ -20,35 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee180f42-5e19-41ab-aa28-4194ac785350" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_data/pizzas.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/on-black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menu.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/how-its-made.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nvmrc" beforeDir="false" afterPath="$PROJECT_DIR$/.nvmrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/content.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/pizza.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/template-index.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/delivery-bike.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/margherita.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/on-black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/pepperoni.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/pizza-oven.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.25b4b3e810fbac63cb47.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.2a9867ca3ef75afd203d.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maybes.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/delivery-bike.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/margherita.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/on-black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/pepperoni.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/pizza-oven.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
