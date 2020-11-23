@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang=" en-GB">
   <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cookie&family=Gentium+Basic:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -18,23 +23,23 @@
     />
     <meta
       property="og:image"
-      content="https://paolospizza.github.io/images/on-black.png"
+      content="https://www.paolospizza.uk/images/on-black.png"
     />
-    <link rel="canonical" href="https://paolospizza.github.io/" />
-    <meta property="og:url" content="https://paolospizza.github.io/" />
+    <link rel="canonical" href="https://www.paolospizza.uk/" />
+    <meta property="og:url" content="https://www.paolospizza.uk/" />
     <meta name="twitter:card" content="summary" />
     <script type="application/ld+json">
               {
-                  "url": "https://paolospizza.github.io/",
+                  "url": "https://www.paolospizza.uk/",
                   "description": "Paolo's Pizza is a new Pizza delivery service based in Marple, UK. We offer delicious, hand stretched Pizza, made in the authentic Neapolitan style and delivered directly to your door. When you can't go to the Pizzeria, let the Pizzeria come to you!
       ",
                   "@type": "LocalBusiness",
                   "currenciesAccepted": "GBP",
                   "name": "Paolo's Pizza",
                   "@context": "https://schema.org",
-                  "telephone": "123-456-7890",
+                  "telephone": "0161 427 0607",
                   "email": "paolospizzamarple@gmail.com",
-                  "image": "https://paolospizza.github.io/images/on-black.png",
+                  "image": "https://www.paolospizza.uk/images/on-black.png",
                   "address": "Marple, UK",
                   "priceRange": "$$"
               }
@@ -43,7 +48,7 @@
     <title>Paolo's Pizza</title>
     <link rel="stylesheet" href="/assets/css/main.css" />
   </head>
-  <body class="text-gray-700 bg-white flex flex-col min-h-screen">
+  <body class="text-gray-700 bg-white flex flex-col min-h-screen font-serif">
     <header class="bg-black mb-3">
       <div
         class="flex items-center justify-between px-4 py-4 sm:px-6 lg:px-8 mx-2 max-w-screen-sm md:mx-auto"
@@ -52,8 +57,8 @@
           <a href="/" class="block">
             <img
               src="images/on-black.png"
-              width="290"
-              height="265"
+              width="200"
+              height="183"
               alt="Paolo's pizza logo"
               class=""
               style="max-height: 18rem"
@@ -61,16 +66,16 @@
           </a>
         </div>
 
-        <div class="flex text-sm">
+        <div class="flex text-sm flex-col sm:flex-row ml-8 sm:ml-0">
           <a
             href="/menu.html"
-            class="font-medium text-gray-300 hover:text-white"
+            class="font-medium text-2xl text-gray-300 hover:text-white mb-3 sm:mb-0"
           >
             Menu
           </a>
           <a
             href="/how-its-made.html"
-            class="ml-4 font-medium text-gray-300 hover:text-white sm:ml-12"
+            class="font-medium text-2xl text-gray-300 hover:text-white sm:ml-12"
           >
             How it's made
           </a>
@@ -79,158 +84,133 @@
     </header>
 
     <section class="mx-2 max-w-screen-sm md:mx-auto mb-3">
-      <h1 class="text-center my-2">Menu</h1>
+      <h1 class="text-center my-2 font-cursive">Menu</h1>
 
       <section class="border-2 rounded-r p-2 mx-2 max-w-screen-sm md:mx-auto">
-        <div class="flex flex-col mb-2">
-          <div class="flex flex-col sm:flex-row">
-            <span class="flex-none text-3xl">Margherita</span>
-            <span
-              class="hidden sm:block flex-grow mx-4 border-b border-dashed border-gray-700"
-              >&#8203;</span
+        <div class="mb-2">
+          <div class="mb-1">
+            <span class="font-bold text-3xl font-cursive"
+              >Margherita - £7.50</span
             >
-            <span class="flex-none text-3xl">£7.50</span>
+            <div class="italic font-bold"></div>
           </div>
-          <div class="italic font-bold"></div>
-          <p class="text-gray-700 italic">
+          <p class="text-gray-700">
             San Marzano tomatoes, Fior di latte Mozzarella, Parmigianno
             reggiano, fresh basil, extra virgin olive oil
           </p>
         </div>
 
-        <div class="flex flex-col mb-2">
-          <div class="flex flex-col sm:flex-row">
-            <span class="flex-none text-3xl">Prosciutto e Funghi</span>
-            <span
-              class="hidden sm:block flex-grow mx-4 border-b border-dashed border-gray-700"
-              >&#8203;</span
+        <div class="mb-2">
+          <div class="mb-1">
+            <span class="font-bold text-3xl font-cursive"
+              >Prosciutto e Funghi - £9.00</span
             >
-            <span class="flex-none text-3xl">£9.00</span>
+            <div class="italic font-bold"></div>
           </div>
-          <div class="italic font-bold"></div>
-          <p class="text-gray-700 italic">
+          <p class="text-gray-700">
             San Marzano tomatoes, Fior di latte Mozzarella, Parmigianno
             reggiano, prosciutto cotto (Italian cooked ham), Mushrooms, Truffle
             oil
           </p>
         </div>
 
-        <div class="flex flex-col mb-2">
-          <div class="flex flex-col sm:flex-row">
-            <span class="flex-none text-3xl">Americano</span>
-            <span
-              class="hidden sm:block flex-grow mx-4 border-b border-dashed border-gray-700"
-              >&#8203;</span
+        <div class="mb-2">
+          <div class="mb-1">
+            <span class="font-bold text-3xl font-cursive"
+              >Americano - £8.50</span
             >
-            <span class="flex-none text-3xl">£8.50</span>
+            <div class="italic font-bold"></div>
           </div>
-          <div class="italic font-bold"></div>
-          <p class="text-gray-700 italic">
+          <p class="text-gray-700">
             San Marzano tomatoes, Fior di latte Mozzarella, Pepperoni, fresh red
             chilli, extra virgin olive oil
           </p>
         </div>
 
-        <div class="flex flex-col mb-2">
-          <div class="flex flex-col sm:flex-row">
-            <span class="flex-none text-3xl">Quattro Stagioni</span>
-            <span
-              class="hidden sm:block flex-grow mx-4 border-b border-dashed border-gray-700"
-              >&#8203;</span
+        <div class="mb-2">
+          <div class="mb-1">
+            <span class="font-bold text-3xl font-cursive"
+              >Quattro Stagioni - £9.00</span
             >
-            <span class="flex-none text-3xl">£9.00</span>
+            <div class="italic font-bold"></div>
           </div>
-          <div class="italic font-bold"></div>
-          <p class="text-gray-700 italic">
+          <p class="text-gray-700">
             San Marzano tomatoes, Fior di latte Mozzarella, prosciutto cotto,
             artichoke, mushrooms, kalamata olives, extra virgin olive oil
           </p>
         </div>
 
-        <div class="flex flex-col mb-2">
-          <div class="flex flex-col sm:flex-row">
-            <span class="flex-none text-3xl">Salsiccia e Friarelli</span>
-            <span
-              class="hidden sm:block flex-grow mx-4 border-b border-dashed border-gray-700"
-              >&#8203;</span
+        <div class="mb-2">
+          <div class="mb-1">
+            <span class="font-bold text-3xl font-cursive"
+              >Salsiccia e Friarelli - £9.50</span
             >
-            <span class="flex-none text-3xl">£9.50</span>
+            <div class="italic font-bold"></div>
           </div>
-          <div class="italic font-bold"></div>
-          <p class="text-gray-700 italic">
+          <p class="text-gray-700">
             San Marzano tomatoes, Fior di latte Mozzarella, Italian fennel
             sausage, friarelli (wild broccoli), extra virgin olive oil
           </p>
         </div>
 
-        <div class="flex flex-col mb-2">
-          <div class="flex flex-col sm:flex-row">
-            <span class="flex-none text-3xl">Napoletana</span>
-            <span
-              class="hidden sm:block flex-grow mx-4 border-b border-dashed border-gray-700"
-              >&#8203;</span
+        <div class="mb-2">
+          <div class="mb-1">
+            <span class="font-bold text-3xl font-cursive"
+              >Napoletana - £8.50</span
             >
-            <span class="flex-none text-3xl">£8.50</span>
+            <div class="italic font-bold"></div>
           </div>
-          <div class="italic font-bold"></div>
-          <p class="text-gray-700 italic">
+          <p class="text-gray-700">
             San Marzano tomatoes, Fior di latte Mozzarella, anchovy, capers,
             Kalamata olives, extra virgin olive oil
           </p>
         </div>
 
-        <div class="flex flex-col mb-2">
-          <div class="flex flex-col sm:flex-row">
-            <span class="flex-none text-3xl">Quattro Formaggi</span>
-            <span
-              class="hidden sm:block flex-grow mx-4 border-b border-dashed border-gray-700"
-              >&#8203;</span
+        <div class="mb-2">
+          <div class="mb-1">
+            <span class="font-bold text-3xl font-cursive"
+              >Quattro Formaggi - £9.50</span
             >
-            <span class="flex-none text-3xl">£9.50</span>
+            <div class="italic font-bold"></div>
           </div>
-          <div class="italic font-bold"></div>
-          <p class="text-gray-700 italic">
+          <p class="text-gray-700">
             San Marzano tomatoes, Fior di latte Mozzarella, Parmigianno
             reggiano, Gruyere, Gorgonzola
           </p>
         </div>
 
-        <div class="flex flex-col mb-2">
-          <div class="flex flex-col sm:flex-row">
-            <span class="flex-none text-3xl">Vegano (v)</span>
-            <span
-              class="hidden sm:block flex-grow mx-4 border-b border-dashed border-gray-700"
-              >&#8203;</span
+        <div class="mb-2">
+          <div class="mb-1">
+            <span class="font-bold text-3xl font-cursive"
+              >Vegano (v) - £8.00</span
             >
-            <span class="flex-none text-3xl">£8.00</span>
+            <div class="italic font-bold">
+              * Add vegan cheese or Fior di latte Mozzarella (non vegan) for
+              £1.00 extra
+            </div>
           </div>
-          <div class="italic font-bold">
-            * Add vegan cheese or Fior di latte Mozzarella (non vegan) for £1.00
-            extra
-          </div>
-          <p class="text-gray-700 italic">
+          <p class="text-gray-700">
             San Marzano tomatoes, oregano, roasted peppers, artichoke, kalamata
             olives, extra virgin olive oil
           </p>
         </div>
 
-        <div class="flex flex-col mb-2">
-          <div class="flex flex-col sm:flex-row">
-            <span class="flex-none text-3xl">Paolo's pudding pizza (v)</span>
-            <span
-              class="hidden sm:block flex-grow mx-4 border-b border-dashed border-gray-700"
-              >&#8203;</span
+        <div class="mb-2">
+          <div class="mb-1">
+            <span class="font-bold text-3xl font-cursive"
+              >Paolo's pudding pizza (v) - £9.00</span
             >
-            <span class="flex-none text-3xl">£9.00</span>
+            <div class="italic font-bold">
+              (for customers with a sweet tooth)
+            </div>
           </div>
-          <div class="italic font-bold">(for customers with a sweet tooth)</div>
-          <p class="text-gray-700 italic">Marshmallows, Nutella, Icing Sugar</p>
+          <p class="text-gray-700">Marshmallows, Nutella, Icing Sugar</p>
         </div>
       </section>
 
       <div class="mx-auto my-5 text-center">
         <a
-          href="tel:123-456-7890"
+          href="tel:0161 427 0607"
           class="mb-3 bg-black hover:bg-black text-white font-bold py-2 px-4 rounded mx-auto inline-flex items-center"
         >
           <svg
@@ -242,21 +222,7 @@
               d="M97.333 506.966c-129.874-129.874-129.681-340.252 0-469.933 5.698-5.698 14.527-6.632 21.263-2.422l64.817 40.513a17.187 17.187 0 0 1 6.849 20.958l-32.408 81.021a17.188 17.188 0 0 1-17.669 10.719l-55.81-5.58c-21.051 58.261-20.612 122.471 0 179.515l55.811-5.581a17.188 17.188 0 0 1 17.669 10.719l32.408 81.022a17.188 17.188 0 0 1-6.849 20.958l-64.817 40.513a17.19 17.19 0 0 1-21.264-2.422zM247.126 95.473c11.832 20.047 11.832 45.008 0 65.055-3.95 6.693-13.108 7.959-18.718 2.581l-5.975-5.726c-3.911-3.748-4.793-9.622-2.261-14.41a32.063 32.063 0 0 0 0-29.945c-2.533-4.788-1.65-10.662 2.261-14.41l5.975-5.726c5.61-5.378 14.768-4.112 18.718 2.581zm91.787-91.187c60.14 71.604 60.092 175.882 0 247.428-4.474 5.327-12.53 5.746-17.552.933l-5.798-5.557c-4.56-4.371-4.977-11.529-.93-16.379 49.687-59.538 49.646-145.933 0-205.422-4.047-4.85-3.631-12.008.93-16.379l5.798-5.557c5.022-4.813 13.078-4.394 17.552.933zm-45.972 44.941c36.05 46.322 36.108 111.149 0 157.546-4.39 5.641-12.697 6.251-17.856 1.304l-5.818-5.579c-4.4-4.219-4.998-11.095-1.285-15.931 26.536-34.564 26.534-82.572 0-117.134-3.713-4.836-3.115-11.711 1.285-15.931l5.818-5.579c5.159-4.947 13.466-4.337 17.856 1.304z"
             />
           </svg>
-          <span>Phone 123-456-7890 to order</span>
-        </a>
-        <a
-          href="https://api.whatsapp.com/send?phone=1234567890"
-          class="text-white font-bold py-2 px-4 rounded mx-auto inline-flex items-center"
-          style="background-color: #25d366"
-        >
-          <img
-            src="images/WhatsApp_Logo_2.png"
-            class="mr-2"
-            width="20"
-            height="19"
-            alt="whatsapp logo"
-          />
-          <span>WhatsApp chat to order</span>
+          <span>Phone 0161 427 0607 to order</span>
         </a>
       </div>
     </section>
@@ -269,7 +235,7 @@
             <div class="uppercase mb-6 font-bold">Contact</div>
             <ul class="mb-4">
               <li class="mt-2">
-                <a href="tel:123-456-7890">123-456-7890</a>
+                <a href="tel:0161 427 0607">0161 427 0607</a>
               </li>
             </ul>
           </div>
