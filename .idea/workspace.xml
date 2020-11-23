@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee180f42-5e19-41ab-aa28-4194ac785350" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CNAME" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,10 +116,10 @@
     </state>
     <state x="360" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1599328135213" />
     <state x="360" y="235" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1095@0.25.1792.1095" timestamp="1606068950504" />
-    <state x="610" y="378" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605818845546">
+    <state x="610" y="378" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606169674350">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
-    <state x="610" y="378" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1792.1095@0.25.1792.1095" timestamp="1605818845546" />
+    <state x="610" y="378" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1792.1095@0.25.1792.1095" timestamp="1606169674350" />
     <state x="0" y="25" key="FileDocumentManager.FileCacheConflict" timestamp="1605728780963">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
