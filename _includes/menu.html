@@ -1,15 +1,13 @@
-<h1 class="text-center my-2">Menu</h1>
+<h1 class="text-center my-2 font-cursive">Menu</h1>
 
 <section class="border-2 rounded-r p-2 mx-2 max-w-screen-sm md:mx-auto">
     {% for pizza in site.data.pizzas %}
-    <div class="flex flex-col mb-2">
-        <div class="flex flex-col sm:flex-row">
-            <span class="flex-none text-3xl">{{pizza.name}}</span>
-            <span class="hidden sm:block flex-grow mx-4 border-b border-dashed border-gray-700">&#8203;</span>
-            <span class="flex-none text-3xl">{{pizza.price}}</span>
+    <div class="mb-2">
+        <div class="mb-1">
+            <span class="font-bold text-3xl font-cursive">{{pizza.name}} - {{pizza.price}}</span>
+            <div class="italic font-bold">{{pizza.note}}</div>
         </div>
-        <div class="italic font-bold">{{pizza.note}}</div>
-        <p class="text-gray-700 italic">
+        <p class="text-gray-700">
             {{pizza.description}}
         </p>
     </div>

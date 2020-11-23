@@ -5,7 +5,8 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      serif: ['Gentium Basic', ...defaultTheme.fontFamily.serif]
+      serif: ['Gentium Basic', ...defaultTheme.fontFamily.serif],
+      cursive: ['Cookie']
     },
     extend: {},
   },
