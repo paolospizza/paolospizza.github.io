@@ -12,3 +12,6 @@ description: >
 
 plugins:
   - jekyll-postcss
+
+include:
+  - CNAME
