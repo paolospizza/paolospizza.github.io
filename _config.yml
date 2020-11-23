@@ -2,7 +2,6 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Paolo's Pizza"
 telephone: "123-456-7890"
-telephoneForWhatsApp: "1234567890" # whatsapp accepts phone details only numbers no other characters
 email: "paolospizzamarple@gmail.com"
 web: "https://paolospizza.github.io/"
 facebook: "https://www.facebook.com/Paolos-Pizza-110432444217153"
