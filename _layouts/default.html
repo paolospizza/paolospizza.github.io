@@ -34,7 +34,7 @@
 </head>
 <body class="text-gray-700 bg-white flex flex-col min-h-screen font-serif">
 <header class="bg-black mb-3">
-    <div class="flex items-center justify-between px-4 py-4 sm:px-6 lg:px-8 mx-2 max-w-screen-sm md:mx-auto">
+    <nav class="flex items-center justify-between px-4 py-4 sm:px-6 lg:px-8 mx-2 max-w-screen-sm md:mx-auto">
         <div class="md:flex items-center">
             <a href="/" class="block">
                 <img src="images/on-black.png" width="200" height="183" alt="Paolo's pizza logo" class=""
@@ -46,14 +46,14 @@
             <a href="/menu.html" class="font-medium text-2xl text-gray-300 hover:text-white mb-3 sm:mb-0">
                 Menu
             </a>
-            <a href="/how-its-made.html" class="font-medium text-2xl text-gray-300 hover:text-white sm:ml-12">
-                How it's made
+            <a href="/about.html" class="font-medium text-2xl text-gray-300 hover:text-white sm:ml-12">
+                About Paolo's
             </a>
         </div>
-    </div>
+    </nav>
 </header>
 
-<section class="mx-2 max-w-screen-sm md:mx-auto mb-3">
+<main class="mx-2 max-w-screen-sm md:mx-auto mb-3 p-2">
     {{ content}}
 
     <div class="mx-auto my-5 text-center">
@@ -65,7 +65,7 @@
             <span>Phone {{site.telephone}} to order</span>
         </a>
     </div>
-</section>
+</main>
 
 <div class="flex-grow"></div>
 <footer class="bg-gray-100">
@@ -77,6 +77,12 @@
                     <li class="mt-2">
                         <a href="tel:{{site.telephone}}">{{site.telephone}}</a>
                     </li>
+                    <li class="mt-2">
+                        <a href="mailto:{{site.email}}"
+                           class="">
+                            <span class="username">{{site.email}}</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
             <div class="w-full sm:w-1/2 text-center sm:text-left">
@@ -84,14 +90,8 @@
                 <ul class="mb-4">
                     <li class="mt-2">
                         <a href="{{site.facebook}}"
-                           class="hover:underline text-gray-700 hover:text-orange-500">
+                           class="">
                             <span class="username">{{site.facebook}}</span>
-                        </a>
-                    </li>
-                    <li class="mt-2">
-                        <a href="mailto:{{site.email}}"
-                           class="hover:underline text-gray-700 hover:text-orange-500">
-                            <span class="username">{{site.email}}</span>
                         </a>
                     </li>
                 </ul>

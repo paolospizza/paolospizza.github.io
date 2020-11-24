@@ -1,13 +1,13 @@
-<h1 class="text-center my-2 font-cursive">Menu</h1>
+<h1 class="text-center my-2 font-cursive">Pizza Menu</h1>
 
-<section class="border-2 rounded-r p-2 mx-2 max-w-screen-sm md:mx-auto">
+<section class="border-2 rounded-r p-2 max-w-screen-sm md:mx-auto">
     {% for pizza in site.data.pizzas %}
     <div class="mb-2">
         <div class="mb-1">
             <span class="font-bold text-3xl font-cursive">{{pizza.name}} - {{pizza.price}}</span>
             <div class="italic font-bold">{{pizza.note}}</div>
         </div>
-        <p class="text-gray-700">
+        <p class="text-gray-700 my-0">
             {{pizza.description}}
         </p>
     </div>
