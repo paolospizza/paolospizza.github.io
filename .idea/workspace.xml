@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee180f42-5e19-41ab-aa28-4194ac785350" name="Default Changelist" comment="">
+    <list default="true" id="ee180f42-5e19-41ab-aa28-4194ac785350" name="Default Changelist" comment="add a link from the micropizzeria box">
+      <change afterPath="$PROJECT_DIR$/_includes/order-precis.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +96,21 @@
       <workItem from="1601067193203" duration="4000" />
       <workItem from="1605727151946" duration="14420000" />
     </task>
+    <task id="LOCAL-00001" summary="add GA">
+      <created>1606329910066</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606329910066</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add a link from the micropizzeria box">
+      <created>1606329922820</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606329922820</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +126,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add GA" />
+    <MESSAGE value="add a link from the micropizzeria box" />
+    <option name="LAST_COMMIT_MESSAGE" value="add a link from the micropizzeria box" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="235" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606068950504">
