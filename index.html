@@ -47,6 +47,20 @@
     <meta property="og:site_name" content="Paolo’s Pizza" />
     <title>Paolo's Pizza</title>
     <link rel="stylesheet" href="/assets/css/main.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-ZJ16GJ5VF6"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-ZJ16GJ5VF6");
+    </script>
   </head>
   <body class="text-gray-700 bg-white flex flex-col min-h-screen font-serif">
     <header class="bg-black mb-3">
@@ -112,7 +126,8 @@
       <div class="border my-2 p-2 bg-gray-100">
         Paolo's Pizza is a <a href="/about.html">Micro-Pizzeria</a> which means
         we only make (approx.) 30 Pizzas a day. With such a limited number
-        available, we suggest always booking your order in advance.
+        available, we suggest always
+        <a href="/how-to-order.html">booking your order in advance.</a>
       </div>
 
       <section class="flex my-2 flex-wrap justify-around">
