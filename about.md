@@ -1,4 +1,7 @@
-
+---
+layout: default
+title: About Paolo's
+---
 <h1 class="font-cursive text-center">About Paolo's Pizza</h1>
 
 <h2 class="font-cursive">Dear Customers,</h2>

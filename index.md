@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Home
 ---
 
 # Paolo's Pizza is a new Pizza delivery service based in Marple, UK.
