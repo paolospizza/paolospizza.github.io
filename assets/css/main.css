@@ -31234,10 +31234,6 @@ p {
   list-style-type: none;
 }
 
-#how-to-order li:nth-child(6) {
-  list-style-type: none;
-}
-
 #how-to-order li:nth-child(7) {
   list-style-type: none;
 }
@@ -31250,7 +31246,11 @@ p {
   list-style-type: none;
 }
 
-#how-to-order li:nth-child(11) {
+#how-to-order li:nth-child(10) {
+  list-style-type: none;
+}
+
+#how-to-order li:nth-child(12) {
   list-style-type: none;
 }
 
