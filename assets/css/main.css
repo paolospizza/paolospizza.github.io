@@ -559,8 +559,6 @@ a {
 h1 {
   font-size: 1.875rem;
   line-height: 2.25rem;
-  --tw-text-opacity: 1;
-  color: rgba(31, 41, 55, var(--tw-text-opacity));
   font-weight: 700;
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
@@ -577,6 +575,28 @@ h2 {
 p {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+.nav-item {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  --tw-text-opacity: 1;
+  color: rgba(209, 213, 219, var(--tw-text-opacity));
+}
+
+.nav-item:hover {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.nav-item {
+  margin-bottom: 0.75rem;
+}
+
+@media (min-width: 640px) {
+  .nav-item {
+    margin-bottom: 0px;
+  }
 }
 
 .container {
