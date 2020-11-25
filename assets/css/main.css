@@ -47,3 +47,31 @@
   padding-right: 5px;
   vertical-align: text-top;
 }
+
+#how-to-order li:nth-child(3) {
+  list-style-type: none;
+}
+
+#how-to-order li:nth-child(4) {
+  list-style-type: none;
+}
+
+#how-to-order li:nth-child(6) {
+  list-style-type: none;
+}
+
+#how-to-order li:nth-child(7) {
+  list-style-type: none;
+}
+
+#how-to-order li:nth-child(8) {
+  list-style-type: none;
+}
+
+#how-to-order li:nth-child(9) {
+  list-style-type: none;
+}
+
+#how-to-order li:nth-child(11) {
+  list-style-type: none;
+}
