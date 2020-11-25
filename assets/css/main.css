@@ -546,6 +546,10 @@ video {
   height: auto;
 }
 
+html {
+  font-size: 14px;
+}
+
 a {
   text-decoration: underline;
 }
