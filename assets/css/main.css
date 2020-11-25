@@ -9,11 +9,12 @@
 
 @layer base {
   html {
-    font-size: 14px;
+    font-size: 17px;
     @apply text-gray-900;
   }
   a {
     text-decoration: underline;
+    font-weight: bold;
   }
 
   h1 {
