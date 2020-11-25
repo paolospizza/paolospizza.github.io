@@ -18,7 +18,6 @@
 
   h1 {
     @apply text-3xl;
-    @apply text-gray-800;
     @apply font-bold;
     @apply my-3;
   }
@@ -29,6 +28,13 @@
   }
   p {
     @apply my-2;
+  }
+  .nav-item {
+    @apply text-3xl;
+    @apply text-gray-300;
+    @apply hover:text-white;
+    @apply mb-3;
+    @apply sm:mb-0;
   }
 }
 
