@@ -10,4 +10,10 @@ We offer delicious, hand stretched Pizza, made in the authentic Neapolitan style
 
 {% include micro-pizzeria-box.html %}
 
-{% include how-to-order.html %}
+{% include pizza-gallery.html %}
+
+Ordering Hours: Weds – Sat, 11am - 10pm
+
+N.B During delivery hours (5pm-9pm) we are liable to be very busy and may not be able
+
+Delivery Hours: Weds – Sat, 5pm - 9pm
