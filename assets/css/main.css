@@ -48,18 +48,6 @@
   vertical-align: text-top;
 }
 
-#how-to-order li:nth-child(1) {
-  list-style-type: disc;
-}
-
-#how-to-order li:nth-child(2) {
-  list-style-type: disc;
-}
-
-#how-to-order li:nth-child(6) {
-  list-style-type: disc;
-}
-
-#how-to-order li:nth-child(10) {
+.bulleted {
   list-style-type: disc;
 }
