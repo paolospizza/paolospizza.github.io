@@ -1,4 +1,4 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.paolospizza.uk" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Paolo's Pizza"
 telephone: "0161 427 0607"
@@ -12,7 +12,6 @@ description: >
 
 plugins:
   - jekyll-postcss
-  - jekyll-sitemap
 
 include:
   - CNAME
