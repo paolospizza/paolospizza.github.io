@@ -12,6 +12,14 @@ description: >
 
 plugins:
   - jekyll-postcss
+  - jekyll-sitemap
 
 include:
   - CNAME
+
+exclude:
+  - package.json
+  - package-lock.json
+  - postcss.config.js
+  - tailwind.config.js
+  - node_modules/*
