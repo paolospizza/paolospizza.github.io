@@ -24,3 +24,4 @@ exclude:
   - tailwind.config.js
   - node_modules/*
   - [vendor]
+  - ruby
