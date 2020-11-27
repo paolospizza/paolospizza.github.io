@@ -1,15 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>/about.html</loc>
-</url>
-<url>
-<loc>/how-to-order.html</loc>
-</url>
-<url>
-<loc>/</loc>
-</url>
-<url>
-<loc>/menu.html</loc>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://www.paolospizza.uk</loc>
+        <lastmod>2020-11-27T11:53:06+00:00</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    
+    <url>
+        <loc>https://www.paolospizza.uk/about.html</loc>
+        
+        <lastmod>2020-11-27</lastmod>
+        
+        
+        <changefreq>monthly</changefreq>
+        
+        
+        <priority>0.3</priority>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.paolospizza.uk/how-to-order.html</loc>
+        
+        <lastmod>2020-11-27</lastmod>
+        
+        
+        <changefreq>monthly</changefreq>
+        
+        
+        <priority>0.3</priority>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.paolospizza.uk/</loc>
+        
+        <lastmod>2020-11-27</lastmod>
+        
+        
+        <changefreq>monthly</changefreq>
+        
+        
+        <priority>0.3</priority>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.paolospizza.uk/assets/css/main.css</loc>
+        
+        <lastmod>2020-11-27</lastmod>
+        
+        
+        <changefreq>monthly</changefreq>
+        
+        
+        <priority>0.3</priority>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.paolospizza.uk/menu.html</loc>
+        
+        <lastmod>2020-11-27</lastmod>
+        
+        
+        <changefreq>monthly</changefreq>
+        
+        
+        <priority>0.3</priority>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.paolospizza.uk/sitemap.xml</loc>
+        
+        <lastmod>2020-11-27</lastmod>
+        
+        
+        <changefreq>monthly</changefreq>
+        
+        
+        <priority>0.3</priority>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.paolospizza.uk/assets/css/style.css</loc>
+        
+        <lastmod>2020-11-27</lastmod>
+        
+        
+        <changefreq>monthly</changefreq>
+        
+        
+        <priority>0.3</priority>
+        
+    </url>
+    
 </urlset>

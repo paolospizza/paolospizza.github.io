@@ -258,7 +258,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages (~> 209)
   jekyll-postcss
-  jekyll-sitemap
 
 BUNDLED WITH
    2.1.4
