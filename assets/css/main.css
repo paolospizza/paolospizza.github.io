@@ -11265,7 +11265,7 @@ p {
 }
 
 .font-cursive {
-  font-family: Niconne, Cookie;
+  font-family: Cookie, Niconne;
 }
 
 .font-thin {
@@ -41896,7 +41896,7 @@ p {
   }
 
   .sm\:font-cursive {
-    font-family: Niconne, Cookie;
+    font-family: Cookie, Niconne;
   }
 
   .sm\:font-thin {
@@ -72436,7 +72436,7 @@ p {
   }
 
   .md\:font-cursive {
-    font-family: Niconne, Cookie;
+    font-family: Cookie, Niconne;
   }
 
   .md\:font-thin {
@@ -102976,7 +102976,7 @@ p {
   }
 
   .lg\:font-cursive {
-    font-family: Niconne, Cookie;
+    font-family: Cookie, Niconne;
   }
 
   .lg\:font-thin {
@@ -133516,7 +133516,7 @@ p {
   }
 
   .xl\:font-cursive {
-    font-family: Niconne, Cookie;
+    font-family: Cookie, Niconne;
   }
 
   .xl\:font-thin {
@@ -164056,7 +164056,7 @@ p {
   }
 
   .\32xl\:font-cursive {
-    font-family: Niconne, Cookie;
+    font-family: Cookie, Niconne;
   }
 
   .\32xl\:font-thin {
