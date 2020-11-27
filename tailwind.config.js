@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     fontFamily: {
       serif: ['Gentium Basic', ...defaultTheme.fontFamily.serif],
-      cursive: ['Cookie', 'Niconne']
+      cursive: ['Niconne']
     },
     extend: {},
   },
