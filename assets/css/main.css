@@ -31406,6 +31406,10 @@ p {
   list-style-type: disc;
 }
 
+.bg-beige-50 {
+  background-color: rgba(224, 178, 122, .5)
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
