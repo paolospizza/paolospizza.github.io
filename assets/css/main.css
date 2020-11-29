@@ -31,11 +31,10 @@
     @apply my-2;
   }
   .nav-item {
-    @apply text-3xl;
-    @apply sm:text-2xl;
+    @apply text-2xl;
     @apply text-gray-300;
     @apply hover:text-white;
-    @apply mb-3;
+    @apply mb-4;
     @apply sm:mb-0;
     @apply sm:ml-2;
   }
