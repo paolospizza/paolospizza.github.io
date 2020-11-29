@@ -51,3 +51,7 @@
 .bulleted {
   list-style-type: disc;
 }
+
+.bg-beige-50 {
+  background-color: rgba(224, 178, 122, .5)
+}
