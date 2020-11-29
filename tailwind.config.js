@@ -8,7 +8,11 @@ module.exports = {
       serif: ['Gentium Basic', ...defaultTheme.fontFamily.serif],
       cursive: ['Niconne']
     },
-    extend: {},
+    extend: {
+      colors: {
+        'beige': '#e0b27a'
+      },
+    },
   },
   variants: {
     extend: {},

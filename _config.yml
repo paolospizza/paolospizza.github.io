@@ -5,11 +5,10 @@ telephone: "0161 427 0607"
 email: "paolospizzamarple@gmail.com"
 web: "https://www.paolospizza.uk/"
 facebook: "https://www.facebook.com/Paolos-Pizza-110432444217153"
-description: >
+description: >-
   Paolo's Pizza is a new Pizza delivery service based in Marple, UK.
   We offer delicious, hand stretched Pizza, made in the authentic Neapolitan style and delivered directly to your door.
   When you can't go to the Pizzeria, let the Pizzeria come to you!
-
 plugins:
   - jekyll-postcss
 
