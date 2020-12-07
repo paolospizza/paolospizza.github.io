@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ee180f42-5e19-41ab-aa28-4194ac785350" name="Default Changelist" comment="add a link from the micropizzeria box">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/soft-launch-box.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/soft-launch-box.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +94,7 @@
       <workItem from="1601023588508" duration="85000" />
       <workItem from="1601067193203" duration="4000" />
       <workItem from="1605727151946" duration="14420000" />
+      <workItem from="1607363506543" duration="122000" />
     </task>
     <task id="LOCAL-00001" summary="add GA">
       <created>1606329910066</created>
@@ -125,6 +126,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add GA" />
@@ -179,11 +181,11 @@
     </state>
     <state x="519" y="166" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1606650366574" />
     <state x="519" y="187" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.25.1792.1095@0.25.1792.1095" timestamp="1606078374574" />
-    <state x="597" y="309" width="597" height="502" key="find.popup" timestamp="1606652895585">
+    <state x="597" y="309" width="597" height="502" key="find.popup" timestamp="1607363627849">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="597" y="309" width="597" height="502" key="find.popup/-499.-1415.2560.1415/0.0.1792.1120@0.0.1792.1120" timestamp="1606330847078" />
-    <state x="597" y="309" width="597" height="502" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1606652895585" />
+    <state x="597" y="309" width="597" height="502" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1607363627849" />
     <state x="597" y="327" width="597" height="490" key="find.popup/0.25.1792.1095@0.25.1792.1095" timestamp="1605815740836" />
   </component>
 </project>
