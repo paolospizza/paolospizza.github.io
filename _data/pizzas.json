@@ -5,6 +5,11 @@
     "description": "San Marzano tomatoes, Fior di latte Mozzarella, Parmigianno reggiano, fresh basil, extra virgin olive oil"
   },
   {
+    "name": "Carnivoro",
+    "price": "£9.50",
+    "description": "San Marzano tomatoes, Fior di latte Mozzarella, Pepperoni, prosciutto cotto (Italian cooked ham), Italian Fennel sausage & extra virgin olive oil"
+  },
+  {
     "name": "Prosciutto e Funghi",
     "price": "£9.00",
     "description": "San Marzano tomatoes, Fior di latte Mozzarella, Parmigianno reggiano, prosciutto cotto (Italian cooked ham), Mushrooms, Truffle oil"
