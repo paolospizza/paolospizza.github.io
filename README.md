@@ -1,6 +1,6 @@
 # Paolo's Pizza Site
 
-## generating for production
+## generating locally
 
 NB this probably doesn't work on Github pages because they don't use jekyll plugins
 
@@ -14,3 +14,11 @@ with this set css files are
 without the `NODE_ENV` production flag
 
 * main.css is __FOUR MEGABYTES__
+
+## deploy
+
+1) push to master
+
+that's it 🤣
+
+uses github actions to build the jekyll site from the master branch and then to publish the built files to the gh-pages branch
