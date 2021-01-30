@@ -664,6 +664,14 @@ p {
   border-width: 1px;
 }
 
+.cursor-zoom-in {
+  cursor: zoom-in;
+}
+
+.cursor-zoom-out {
+  cursor: zoom-out;
+}
+
 .block {
   display: block;
 }
