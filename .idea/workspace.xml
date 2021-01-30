@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee180f42-5e19-41ab-aa28-4194ac785350" name="Default Changelist" comment="add a link from the micropizzeria box">
-      <change beforePath="$PROJECT_DIR$/_includes/soft-launch-box.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/soft-launch-box.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +95,7 @@
       <workItem from="1605727151946" duration="14420000" />
       <workItem from="1607363506543" duration="634000" />
       <workItem from="1608055371435" duration="77000" />
+      <workItem from="1609954612591" duration="221000" />
     </task>
     <task id="LOCAL-00001" summary="add GA">
       <created>1606329910066</created>
