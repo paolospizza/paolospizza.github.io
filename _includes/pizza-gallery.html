@@ -3,4 +3,29 @@
     {% include pizza-image.html image="margherita.jpg" caption="Margherita" %}
     {% include pizza-image.html image="prosciutto-e-funghi.jpg" caption="Prosciutto e Funghi" %}
     {% include pizza-image.html image="salsiccia-e-friarelli.jpg" caption="Salsiccia e Friarelli" %}
+
+    <script>
+        document.addEventListener('click', function (event) {
+            console.log(event.target);
+            // If the clicked element doesn't have the right selector, bail
+            if (!event.target.matches('.pizza-image')) return;
+            event.preventDefault();
+
+            if (event.target.requestFullscreen) {
+                event.target.requestFullscreen();
+            }
+            else if (event.target.msRequestFullscreen) {
+                event.target.msRequestFullscreen();               
+            }
+            else if (event.target.mozRequestFullScreen) {
+                event.target.mozRequestFullScreen();      
+            }
+            else if (event.target.webkitRequestFullscreen) {
+                event.target.webkitRequestFullscreen();       
+            } else {
+                console.log("Fullscreen API is not supported");
+            } 
+
+        }, false);
+    </script>
 </section>
