@@ -12,6 +12,10 @@ module.exports = {
       colors: {
         'beige': '#e0b27a'
       },
+      cursor: {
+        'zoom-in': 'zoom-in',
+        'zoom-out': 'zoom-out'
+      }
     },
   },
   variants: {

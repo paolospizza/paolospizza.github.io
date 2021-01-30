@@ -6,25 +6,23 @@
 
     <script>
         document.addEventListener('click', function (event) {
-            console.log(event.target);
             // If the clicked element doesn't have the right selector, bail
             if (!event.target.matches('.pizza-image')) return;
             event.preventDefault();
 
-            if (event.target.requestFullscreen) {
-                event.target.requestFullscreen();
-            }
-            else if (event.target.msRequestFullscreen) {
-                event.target.msRequestFullscreen();               
-            }
-            else if (event.target.mozRequestFullScreen) {
-                event.target.mozRequestFullScreen();      
-            }
-            else if (event.target.webkitRequestFullscreen) {
-                event.target.webkitRequestFullscreen();       
+            if (!document.fullscreenElement) {
+                if (event.target.requestFullscreen) {
+                    event.target.requestFullscreen();
+                    event.target.parentElement.classList.toggle('cursor-zoom-in')
+                    event.target.parentElement.classList.toggle('cursor-zoom-out')
+                } else {
+                    console.log("Fullscreen API is not supported");
+                } 
             } else {
-                console.log("Fullscreen API is not supported");
-            } 
+                document.exitFullscreen()
+                event.target.parentElement.classList.toggle('cursor-zoom-in')
+                event.target.parentElement.classList.toggle('cursor-zoom-out')
+            }
 
         }, false);
     </script>
