@@ -1148,6 +1148,10 @@ p {
     margin-right: auto;
   }
 
+  .md\:max-w-screen-md {
+    max-width: 768px;
+  }
+
   .md\:w-5\/12 {
     width: 41.666667%;
   }
