@@ -15,6 +15,11 @@
     "description": "San Marzano tomatoes, Fior di latte Mozzarella, Parmigianno reggiano, prosciutto cotto (Italian cooked ham), Mushrooms, Truffle oil"
   },
   {
+    "name": "Funghi e Gorgonzola",
+    "price": "£9.00",
+    "description": "San Marzano tomatoes, Fior di latte Mozzarella, Parmigianno reggiano, Gorgonzola, Mushrooms, Truffle oil"
+  },
+  {
     "name": "Americano",
     "price": "£8.50",
     "description": "San Marzano tomatoes, Fior di latte Mozzarella, Pepperoni, fresh red chilli, extra virgin olive oil"
