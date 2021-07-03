@@ -30,7 +30,6 @@ jobs:
           node-version: '14'
           cache: 'npm'
       - run: npm install
-      - run: npm test
       - name: 🔨 install dependencies & build site
         uses: limjh16/jekyll-action-ts@v2
         env:
