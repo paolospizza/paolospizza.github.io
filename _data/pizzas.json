@@ -5,6 +5,11 @@
     "description": "San Marzano tomatoes, Fior di latte Mozzarella, Parmigianno reggiano, fresh basil, extra virgin olive oil"
   },
   {
+    "name": "Diavolo",
+    "price": "£9.50",
+    "description": "San Marzano tomatoes, Fior di latte Mozzarella, Spicy Chorizo, Roasted Peppers, fresh red chilli, chilli oil, chilli flakes"
+  },
+  {
     "name": "Carnivoro",
     "price": "£9.50",
     "description": "San Marzano tomatoes, Fior di latte Mozzarella, Pepperoni, prosciutto cotto (Italian cooked ham), Italian Fennel sausage & extra virgin olive oil"
@@ -49,11 +54,5 @@
     "price": "£8.00",
     "note": "* Add vegan cheese or Fior di latte Mozzarella (non vegan) for £1.00 extra",
     "description": "San Marzano tomatoes, oregano, roasted peppers, artichoke, kalamata olives, extra virgin olive oil"
-  },
-  {
-    "name": "Paolo's pudding pizza (v)",
-    "price": "£9.00",
-    "note": "(for customers with a sweet tooth)",
-    "description": "Marshmallows, Nutella, Icing Sugar"
   }
 ]

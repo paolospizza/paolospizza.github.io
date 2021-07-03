@@ -21,5 +21,6 @@
     "postcss": "^8.1.9",
     "postcss-scss": "^3.0.4",
     "tailwindcss": "^2.0.1"
-  }
+  },
+  "dependencies": {}
 }

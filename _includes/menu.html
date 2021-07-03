@@ -12,4 +12,28 @@
         </p>
     </div>
     {% endfor %}
+    <h1 class="text-5xl text-center my-4 font-cursive">Sides</h1>
+    {% for side in site.data.sides %}
+    <div class="mb-2">
+        <div class="mb-1">
+            <span class="font-bold text-3xl font-cursive">{{side.name}} - {{side.price}}</span>
+            <div class="italic font-bold">{{side.note}}</div>
+        </div>
+        <p class="my-0">
+            {{side.description}}
+        </p>
+    </div>
+    {% endfor %}
+    <h1 class="text-5xl text-center my-4 font-cursive">Desserts</h1>
+    {% for dessert in site.data.desserts %}
+    <div class="mb-2">
+        <div class="mb-1">
+            <span class="font-bold text-3xl font-cursive">{{dessert.name}} - {{dessert.price}}</span>
+            <div class="italic font-bold">{{dessert.note}}</div>
+        </div>
+        <p class="my-0">
+            {{dessert.description}}
+        </p>
+    </div>
+    {% endfor %}
 </section>
