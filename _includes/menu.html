@@ -16,11 +16,11 @@
     {% for extra in site.data.extras %}
     <div class="mb-2">
         <div class="mb-1">
-            <span class="font-bold text-3xl font-cursive">{{side.name}} - {{side.price}}</span>
-            <div class="italic font-bold">{{side.note}}</div>
+            <span class="font-bold text-3xl font-cursive">{{extra.name}} - {{extra.price}}</span>
+            <div class="italic font-bold">{{extra.note}}</div>
         </div>
         <p class="my-0">
-            {{side.description}}
+            {{extra.description}}
         </p>
     </div>
     {% endfor %}
