@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Additional topping / Nduja",
+    "price": "£1.00 / £2.00"
+  },
+  {
+    "name": "Garlic bread with Mozzarella (v)",
+    "price": "£5.50",
+    "description": "Garlic oil, sea salt, black pepper, parsley, fior di latte mozzarella",
+    "note": "approx. 9 inches"
+  },
+  {
+    "name": "Paolo's pudding pizza",
+    "price": "£6.50",
+    "note": "(for customers with a sweet tooth) approx. 9 inches",
+    "description": "Marshmallows, nutella, Icing sugar"
+  }
+]
