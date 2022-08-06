@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
-# Paolo's Pizza delivering delicious Neapolitan pizza every Thursday, Friday, and Saturday
+# Paolo's Pizza delivering delicious Neapolitan pizza every Friday, and Saturday
 
 ## Paolo's Pizza is a new Pizza delivery service based in Marple, UK.
 
