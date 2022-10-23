@@ -252,6 +252,7 @@ GEM
       unf_ext
     unf_ext (0.0.8.2)
     unicode-display_width (1.8.0)
+    webrick (1.7.0)
     zeitwerk (2.6.0)
 
 PLATFORMS
@@ -260,6 +261,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (~> 209)
   jekyll-postcss
+  webrick (~> 1.7)
 
 RUBY VERSION
    ruby 3.1.2p20
